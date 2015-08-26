@@ -15,6 +15,9 @@
 		F217C4811B8E41D400A30FD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F217C4801B8E41D400A30FD1 /* Images.xcassets */; };
 		F217C4841B8E41D400A30FD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F217C4821B8E41D400A30FD1 /* LaunchScreen.xib */; };
 		F217C4901B8E41D400A30FD1 /* MapTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F217C48F1B8E41D400A30FD1 /* MapTutorialTests.m */; };
+		F217C49A1B8E63AB00A30FD1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F217C4991B8E63AB00A30FD1 /* MapKit.framework */; };
+		F217C49D1B8E6BEE00A30FD1 /* JFMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F217C49C1B8E6BEE00A30FD1 /* JFMapAnnotation.m */; };
+		F217C49F1B8E6CF100A30FD1 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = F217C49E1B8E6CF100A30FD1 /* capitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		F217C4891B8E41D400A30FD1 /* MapTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F217C48E1B8E41D400A30FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F217C48F1B8E41D400A30FD1 /* MapTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTutorialTests.m; sourceTree = "<group>"; };
+		F217C4991B8E63AB00A30FD1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F217C49B1B8E6BEE00A30FD1 /* JFMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMapAnnotation.h; sourceTree = "<group>"; };
+		F217C49C1B8E6BEE00A30FD1 /* JFMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMapAnnotation.m; sourceTree = "<group>"; };
+		F217C49E1B8E6CF100A30FD1 /* capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F217C49A1B8E63AB00A30FD1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +73,7 @@
 		F217C4641B8E41D400A30FD1 = {
 			isa = PBXGroup;
 			children = (
+				F217C4991B8E63AB00A30FD1 /* MapKit.framework */,
 				F217C46F1B8E41D400A30FD1 /* MapTutorial */,
 				F217C48C1B8E41D400A30FD1 /* MapTutorialTests */,
 				F217C46E1B8E41D400A30FD1 /* Products */,
@@ -87,6 +96,9 @@
 				F217C4751B8E41D400A30FD1 /* AppDelegate.m */,
 				F217C47A1B8E41D400A30FD1 /* ViewController.h */,
 				F217C47B1B8E41D400A30FD1 /* ViewController.m */,
+				F217C49B1B8E6BEE00A30FD1 /* JFMapAnnotation.h */,
+				F217C49C1B8E6BEE00A30FD1 /* JFMapAnnotation.m */,
+				F217C49E1B8E6CF100A30FD1 /* capitals.json */,
 				F217C47D1B8E41D400A30FD1 /* Main.storyboard */,
 				F217C4801B8E41D400A30FD1 /* Images.xcassets */,
 				F217C4821B8E41D400A30FD1 /* LaunchScreen.xib */,
@@ -204,6 +216,7 @@
 			files = (
 				F217C47F1B8E41D400A30FD1 /* Main.storyboard in Resources */,
 				F217C4841B8E41D400A30FD1 /* LaunchScreen.xib in Resources */,
+				F217C49F1B8E6CF100A30FD1 /* capitals.json in Resources */,
 				F217C4811B8E41D400A30FD1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F217C49D1B8E6BEE00A30FD1 /* JFMapAnnotation.m in Sources */,
 				F217C4791B8E41D400A30FD1 /* MapTutorial.xcdatamodeld in Sources */,
 				F217C4761B8E41D400A30FD1 /* AppDelegate.m in Sources */,
 				F217C47C1B8E41D400A30FD1 /* ViewController.m in Sources */,
